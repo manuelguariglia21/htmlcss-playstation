@@ -1,31 +1,3 @@
-
-/* header */
-.mg-top-header{
-  height: 37px;
-  background-color: black;
-}
-
-.mg-top-header img{
-  width: 75px;
-  margin-right: 10px;
-}
-
-.mg-bottom-header ul li a{
-  font-size: 13px;
-  font-weight: 600;
-  color: black !important;
-  margin-right: 10px;
-}
-
-.mg-bottom-header ul li a i{
-  font-size: 10px;
-  color: #999999 !important;
-}
-
-.mg-bottom-header ul li a:hover, .mg-bottom-header ul li a:hover > i{
-  color: #0070d1 !important;
-}
-
 /* btn */
 
 .mg-btn-header{
@@ -55,6 +27,55 @@
   border-color: transparent;
 }
 
+/* header */
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 900;
+}
+.mg-top-header{
+  height: 37px;
+  background-color: black;
+}
+
+.mg-top-header img{
+  width: 75px;
+  margin-right: 10px;
+}
+
+.mg-bottom-header ul li a{
+  font-size: 13px;
+  font-weight: 600;
+  color: black !important;
+  margin-right: 10px;
+}
+
+.mg-bottom-header ul li a i{
+  font-size: 10px;
+  color: #999999 !important;
+}
+
+.mg-bottom-header ul li a:hover, .mg-bottom-header ul li a:hover > i{
+  color: #0070d1 !important;
+}
+
 #mg-header-search{
   width: 20px;
 }
+
+/* JUMBOTRON */
+
+.mg-jumbotron{
+  height: 548px;
+  background-color: red;
+  margin-top: 112px;
+}
+
+/* FOOTER */
+
+.mg-footer{
+  height: 548px;
+  background-color: #0070d1;
+}
+
