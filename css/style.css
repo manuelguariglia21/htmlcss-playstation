@@ -1,11 +1,11 @@
 .mg-container{
   width: 100%;
-  margin: 36px;
+  padding: 36px;
 }
 
 /* btn */
 
-.mg-btn-header{
+.mg-btn-black{
   font-size: 15px;
   background-color: #363636;
   color:white;
@@ -17,18 +17,41 @@
   margin-right: 30px;
 }
 
-.mg-btn-header:hover, .mg-btn-header:active{
+.mg-btn-black:hover, .mg-btn-header:active{
   background-color: #5c636a;
   color:white;
   border: 3px solid white;
   box-shadow: 0 0 0 2px  #5c636a;
 }
 
-.mg-btn-header:active{
+.mg-btn-black:active{
   box-shadow: 0 0 0 2px #5c636a;
 }
 
-.mg-btn-jumbo{
+.mg-btn-blue{
+  font-size: 15px;
+  background-color: #0070d1;
+  color:white;
+  font-weight: 700;
+  border-radius: 70px;
+  border: 3px solid #0070d1;
+  box-shadow: 0 0 0 2px  #0070d1;
+  padding: 5px 8px;
+  margin-right: 30px;
+}
+
+.mg-btn-blue:hover, .mg-btn-header:active{
+  background-color: #0070d1;
+  color:white;
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px  #0070d1;
+}
+
+.mg-btn-blue:active{
+  box-shadow: 0 0 0 2px #0070d1;
+}
+
+.mg-btn-red{
   font-size: 15px;
   background-color: #cd3d0f;
   color:white;
@@ -41,12 +64,12 @@
   margin-top: 15px;
 }
 
-.mg-btn-jumbo:hover, .mg-btn-jumbo:active{
+.mg-btn-red:hover, .mg-btn-jumbo:active{
   color:white;
   border: 3px solid black;
 }
 
-.mg-btn-jumbo:active{
+.mg-btn-red:active{
   box-shadow: 0 0 0 2px #cd3d0f;
 }
 
@@ -138,14 +161,18 @@ header{
   color: #727272;
 }
 
-.mg-ps5-top h2{
-  font-weight: 600\;
+.mg-ps5 h2{
+  font-weight: 600;
 }
 
 .mg-ps5-top p:first-of-type{
   color: #0070d1;
   margin-bottom: 0;
   font-size: 12px;
+}
+
+.mg-ps5-bottom-right img{
+  width: 50%;
 }
 
 /* FOOTER */
