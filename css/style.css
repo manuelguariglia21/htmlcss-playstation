@@ -159,10 +159,12 @@ header{
 .mg-ps5 h2 + p{
   font-weight: 600;
   color: #727272;
+  margin-bottom: 25px;
 }
 
 .mg-ps5 h2{
   font-weight: 600;
+  margin-bottom: 25px;
 }
 
 .mg-ps5-top p:first-of-type{
@@ -172,8 +174,32 @@ header{
 }
 
 .mg-ps5-bottom-right img{
-  width: 50%;
+  width: 100%;
 }
+
+.mg-ps5-selector{
+  cursor: pointer;
+}
+
+.mg-ps5-selector img{
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.mg-ps5-disable{
+  opacity: .5;
+}
+
+.mg-ps5-selector.mg-ps5-active .mg-ps5-desc{
+  color: black;
+  font-weight: 500;
+}
+
+.mg-ps5-active{
+  border-bottom: 2px solid #0070d1;
+}
+
+
 
 /* FOOTER */
 
