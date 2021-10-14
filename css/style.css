@@ -206,7 +206,6 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 112px 0 0 0;
   padding: 0 0 45px 0;
   color:white;
 }
@@ -222,8 +221,15 @@ header{
 .mg-second-jumbotron img{ 
   width: 200px;
 }
+/* GAME */
+.mg-game{
+  color: white;
+  background-color: black;
+}
 
-
+.mg-card-game img{
+  width: 100%;
+}
 
 /* FOOTER */
 
