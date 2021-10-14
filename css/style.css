@@ -1,3 +1,8 @@
+.mg-container{
+  width: 100%;
+  margin: 36px;
+}
+
 /* btn */
 
 .mg-btn-header{
@@ -90,8 +95,8 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 112px;
-  padding: 45px;
+  margin: 112px 0 0 0;
+  padding: 0;
   color:white;
 }
 
@@ -124,6 +129,23 @@ header{
 .mg-selector-box.mg-active{
   border: 3px solid white;
   box-shadow: 0 0 0 3px #0070d1;
+}
+
+/* PS5 */
+
+.mg-ps5 h2 + p{
+  font-weight: 600;
+  color: #727272;
+}
+
+.mg-ps5-top h2{
+  font-weight: 600\;
+}
+
+.mg-ps5-top p:first-of-type{
+  color: #0070d1;
+  margin-bottom: 0;
+  font-size: 12px;
 }
 
 /* FOOTER */
