@@ -1,8 +1,7 @@
 .mg-container{
-  width: 100%;
-  padding: 0 40px 40px;
+  width: 90%;
+  margin: 0 auto;
 }
-
 /* btn */
 
 .mg-btn-black{
@@ -119,7 +118,7 @@ header{
   background-repeat: no-repeat;
   background-position: center;
   margin: 112px 0 0 0;
-  padding: 0;
+  padding: 0 0 45px 0;
   color:white;
 }
 
@@ -208,7 +207,7 @@ header{
   background-repeat: no-repeat;
   background-position: center;
   margin: 112px 0 0 0;
-  padding: 0;
+  padding: 0 0 45px 0;
   color:white;
 }
 
@@ -232,4 +231,3 @@ header{
   height: 548px;
   background-color: #0070d1;
 }
-
