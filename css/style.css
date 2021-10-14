@@ -4,7 +4,7 @@
   font-size: 15px;
   background-color: #363636;
   color:white;
-  font-weight: bolder;
+  font-weight: 700;
   border-radius: 70px;
   border: 3px solid #363636;
   box-shadow: 0 0 0 2px  #363636;
@@ -27,12 +27,13 @@
   font-size: 15px;
   background-color: #cd3d0f;
   color:white;
-  font-weight: bolder;
+  font-weight: 700;
   border-radius: 70px;
   border: 3px solid #cd3d0f;
   box-shadow: 0 0 0 2px  #cd3d0f;
   padding: 4px 8px;
   margin-right: 30px;
+  margin-top: 15px;
 }
 
 .mg-btn-jumbo:hover, .mg-btn-jumbo:active{
@@ -98,16 +99,31 @@ header{
   margin-bottom: 15px;
 }
 
-.mg-btn-jumbo{
-  margin-top: 15px;
-}
-
-.mg-jumbotron h2, .mg-jumbotron p, .mg-btn-jumbo{
+.mg-jumbotron h2, .mg-jumbotron p{
   font-weight: 600;
 }
 
 .mg-jumbotron img{ 
   width: 200px;
+}
+
+/* SELECTOR */
+
+.mg-selector-box{
+  background-color: royalblue;
+  border-radius: 15%;
+  margin: 15px 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.mg-selector-box img{
+  width: 100%;
+}
+
+.mg-selector-box.mg-active{
+  border: 3px solid white;
+  box-shadow: 0 0 0 3px #0070d1;
 }
 
 /* FOOTER */
