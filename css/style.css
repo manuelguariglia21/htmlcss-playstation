@@ -1,6 +1,6 @@
 .mg-container{
   width: 100%;
-  padding: 36px;
+  padding: 0 40px 40px;
 }
 
 /* btn */
@@ -197,6 +197,31 @@ header{
 
 .mg-ps5-active{
   border-bottom: 2px solid #0070d1;
+}
+
+/* SECOND JUMBO */
+
+.mg-second-jumbotron{
+  height: 548px;
+  background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 112px 0 0 0;
+  padding: 0;
+  color:white;
+}
+
+.mg-second-jumbotron img, .mg-second-jumbotron h2{
+  margin-bottom: 25px;
+}
+
+.mg-second-jumbotron h2, .mg-second-jumbotron p{
+  font-weight: 600;
+}
+
+.mg-second-jumbotron img{ 
+  width: 200px;
 }
 
 
