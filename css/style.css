@@ -188,6 +188,12 @@ header{
 
 /* SELECTOR */
 
+.mg-selector-father{
+  padding-top: 30px;
+  transition: padding-top .2s linear;
+  padding-bottom: 3rem;
+} 
+
 .mg-selector-box{
   background-color: royalblue;
   border-radius: 15%;
@@ -196,8 +202,13 @@ header{
   cursor: pointer;
 }
 
+.mg-selector-father:hover{
+  padding-top: 10px;
+}
+
 .mg-selector-box img{
   width: 100%;
+  height: 100%;
 }
 
 .mg-selector-box.mg-active{
