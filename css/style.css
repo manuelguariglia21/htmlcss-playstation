@@ -364,6 +364,27 @@ header{
   display: initial;
 }
 
+/* SOCIAL */
+.mg-social{
+  padding: 60px 0;
+}
+
+.mg-social p{
+  color: #727272;
+}
+
+.mg-social-top p{
+  padding: 30px 0;
+}
+
+.mg-card-social img{
+  width: 100%;
+}
+
+.mg-social-box{
+  margin: 60px 0;
+}
+
 
 /* FOOTER */
 
