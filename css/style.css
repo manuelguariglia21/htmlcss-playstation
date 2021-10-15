@@ -247,8 +247,13 @@ header{
   margin-bottom: 15px;
 }
 
+.mg-ps5-disable:hover{
+  opacity: 100%;
+}
+
 .mg-ps5-disable{
   opacity: .5;
+  transition: opacity .1s linear;
 }
 
 .mg-ps5-selector.mg-ps5-active .mg-ps5-desc{
