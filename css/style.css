@@ -219,12 +219,26 @@ header{
 }
 
 .mg-second-jumbotron img{ 
-  width: 200px;
+  width: 45%;
 }
 /* GAME */
+
 .mg-game{
+  background-color: #1f1f1f;
+  padding: 10px 0;
+}
+
+.mg-game h3 + p{
+  font-size: 20px;
+}
+.mg-game p, .mg-game h3{
+  font-weight: 600;
   color: white;
-  background-color: black;
+  padding-top: 10px;
+}
+
+.mg-card-description{
+  padding: 10px 0 40px 0;
 }
 
 .mg-card-game img{
