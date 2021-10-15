@@ -389,8 +389,36 @@ header{
 /* FOOTER */
 
 .mg-footer{
-  height: 548px;
   background-color: #0070d1;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 80px;
+}
+
+#mg-white-logo{
+  width: 95px;
+  padding-bottom: 40px;
+}
+
+.mg-language i{
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.mg-foot-menu ul li{
+  list-style: none;
+  line-height: 2rem;
+}
+
+.mg-foot-menu ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+#mg-logo-sie{
+  width: 130px;
+  padding-bottom: 15px;
 }
 
 /* RESPONSIVE */
