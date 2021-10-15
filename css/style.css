@@ -2,6 +2,11 @@
   width: 90%;
   margin: 0 auto;
 }
+
+h2{
+  font-weight: 600;
+  font-size: 40px;
+}
 /* btn */
 
 .mg-btn-black{
@@ -287,6 +292,10 @@ header{
   color: black;
 }
 
+.mg-plus-text{
+  padding: 25px 0;
+}
+
 .mg-plus #logo-plus{
   margin-bottom: 25px;
   width: 45%;
@@ -294,11 +303,40 @@ header{
 
 .mg-plus #side-plus{
   width: 100%;
+  display: initial;
 }
+
+/* SALE */
+.mg-sale{
+  padding: 60px 0;
+}
+
+.mg-sale p{
+  color: #727272;
+}
+
+.mg-sale-top p{
+  padding: 30px 0;
+}
+
+.mg-card-sale img{
+  width: 100%;
+}
+
 
 /* FOOTER */
 
 .mg-footer{
   height: 548px;
   background-color: #0070d1;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 767px){
+
+  /* PLUS */
+  .mg-plus #side-plus{
+    display: none;
+  }
 }
